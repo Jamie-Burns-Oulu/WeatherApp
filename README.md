@@ -7,10 +7,10 @@ Weather App
 This is a simple weather application made with cordova and react. The application has master detail design and persistent storage for saving favorites.
 
 ## Screenshots
-![Weather App](https://raw.githubusercontent.com/t7buja00/WeatherApp/branch/path/to/1.jpg)
-![Weather App](https://raw.githubusercontent.com/t7buja00/WeatherApp/branch/path/to/2.jpg)
-![Weather App](https://raw.githubusercontent.com/t7buja00/WeatherApp/branch/path/to/3.jpg)
-![Weather App](https://raw.githubusercontent.com/t7buja00/WeatherApp/branch/path/to/4.jpg)
+![Weather App](https://raw.githubusercontent.com/t7buja00/WeatherApp/master/1.jpg)
+![Weather App](https://raw.githubusercontent.com/t7buja00/WeatherApp/master/2.jpg)
+![Weather App](https://raw.githubusercontent.com/t7buja00/WeatherApp/master/3.jpg)
+![Weather App](https://raw.githubusercontent.com/t7buja00/WeatherApp/master/4.jpg)
 
 
 ## Authors
