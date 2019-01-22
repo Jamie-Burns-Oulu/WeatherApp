@@ -1,0 +1,161 @@
+html *
+{
+   font-family: Arial !important;
+}
+body {
+   background-image: url("https://www.desktop-background.com/p/2010/05/07/13639_sky-clouds-backgrounds-four_4153x2769_h.jpg");
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+ }
+.title{
+   text-align: center;
+   color: aliceblue;
+}
+
+.results{
+   height: 700px;
+   /* width: 65%; */
+   overflow: auto;
+   position: relative;
+}
+
+.landing{
+   height: 600px;
+   margin-top: 10%;
+   /* margin-left: 25%; */
+}
+
+.form{  
+   width: 65%;
+   margin-left: 20%;
+   overflow: auto;
+   position: relative;
+   display: flex;
+}
+
+.searchInput{
+   display: flex;
+   flex-direction: column;
+   background-color: aliceblue;
+   /* padding-tp:20px; */
+   font-size:24px
+}
+
+.suggestionBtn{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: baseline;
+   background-color: whitesmoke;
+   text-decoration: none;
+   cursor: pointer;
+   border: none;
+   width: 65%;
+   margin-left: 20%;
+   z-index: 10;
+   position:relative;
+   padding-top:15px;
+   padding-bottom:15px;
+   font-size:24px
+}
+
+.getWeatherBtn{
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(255, 162, 74);
+   color: aliceblue;
+   text-decoration: none;
+   cursor: pointer;
+   border: none;
+   border-radius: 50%;
+   padding-top: 7px;
+   margin-left: auto;
+   margin-right: auto;   
+   width: 30px;
+   height: 30px;
+}
+
+.favContainer{  
+   position: absolute;
+   top: 20%; left: 0;
+   width: 100%;
+   margin-top: 20%;
+}
+
+.favItem{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: baseline;
+   background-color: rgb(200, 242, 255);
+   text-decoration: none;
+   cursor: pointer;
+   border: none;
+   border-radius: 4px;
+   margin-top: 3px;
+   width: 65%;
+   margin-left: 20%;
+   font-size:24px
+}
+
+.bannerBtn{
+   text-decoration: none;
+   color: aliceblue;
+   cursor: pointer;
+   border: none;
+   margin-top: 50%;
+   border-radius: 4px;
+   width:50%;
+   height:120px;
+}
+
+#favBtn{
+   background-color: rgb(209, 136, 0);
+}
+#backBtn{  
+    background-color: rgb(0, 0, 0);
+}
+#delBtn{  
+   background-color: rgb(255, 38, 38);
+}
+
+.resultsBanner{
+   margin-top: 5%;
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   color: aliceblue;
+}
+
+.resultsBannerItem{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: space-between;
+   width:33%;
+   text-align: center;
+   color: aliceblue;
+   font-size: 18px;
+   /* margin-left: 5%; */
+}
+
+.resultDetails{
+   margin-top: 15%;
+   color: aliceblue;
+   font-size: 18px;
+}
+
+.weatherIcon{
+   margin-left: 42%;
+}
+
+.resultTitle{
+   font-size: 24px;
+}
+
+.loading{
+   /* background:url(src/spinner.gif)  */
+   /* no-repeat center center; */
+   width:32px;
+   height:32px;
+}
