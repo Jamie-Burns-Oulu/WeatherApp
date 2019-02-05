@@ -33,7 +33,7 @@ export default class Results extends Component {
         nextProps.city != undefined && nextProps.city.length > 0
             ? axios
                   .get(
-                      `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${API_KEY}&units=metric`
+                      `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${API_KEY}&units=metric`
                   )
                   .then(res => {
                       this.setState({
@@ -111,7 +111,7 @@ export default class Results extends Component {
                     <div className="resultDetails">
                         <img
                             className="weatherIcon"
-                            src={`http://openweathermap.org/img/w/${
+                            src={`https://openweathermap.org/img/w/${
                                 this.state.weatherIcon
                             }.png`}
                         />
