@@ -92,11 +92,7 @@ export default class Results extends Component {
     }
 
     render() {
-        return this.state.isLoading ? (
-            <div className="loading">
-                <img src="www/img/spinner.gif" />
-            </div>
-        ) : (
+        return (
             <div>
                 <div className="resultsBanner">
                     <div className="resultsBannerItem" />
@@ -153,3 +149,4 @@ export default class Results extends Component {
         );
     }
 }
+ 

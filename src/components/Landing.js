@@ -60,15 +60,15 @@ class Landing extends Component {
     takeSuggestion(e) {
         e.preventDefault();
         let suggestedCity = e.target.name;
-        
+        document.getElementById("city").value = suggestedCity;
         this.setState({ search: [] });
         this.getFavs();
     }
 
     getWeather(e) {
         e.preventDefault();
-        let city = document.getElementById("city").value;
-        city = "";
+        const city = document.getElementById("city").value;
+        document.getElementById("city").value = "";
         this.setState({ city: city });
         document.getElementById("results").scrollIntoView(true);
         this.getFavs();
